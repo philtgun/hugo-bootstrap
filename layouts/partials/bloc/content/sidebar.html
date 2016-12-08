@@ -23,7 +23,7 @@
       {{ $len := len $value }}
       {{ if (not ( eq $len 0 ) ) }}
       <div class="section taxonomies">
-        <header><div class="title"><b>{{ $key }}</b></div></header>
+        <header><div class="title"><b>{{ $key | humanize }}</b></div></header>
 
         <div class="content">
           <ul>
