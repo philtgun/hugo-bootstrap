@@ -112,6 +112,8 @@ disqusShortname = "your_disqus_shortname"
     googleAnalytics = "Your Google Analytics tracking code"
 
     # Sidebar social links.
+    socialLinks = true # Show or hide
+    
     github = "enten/hugo-boilerplate" # Your Github profile ID
     bitbucket = "" # Your Bitbucket profile ID
     linkedin = "" # Your LinkedIn profile ID (from public URL)
@@ -120,6 +122,11 @@ disqusShortname = "your_disqus_shortname"
     twitter = "" # Your Twitter profile ID
     youtube = ""  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
+    stackoverflow = "" # Stack overflow "id/name"
+
+    # Theme name
+    [params.theme]
+        name = "yeti"
 
 [blackfriday]
     angledQuotes = true

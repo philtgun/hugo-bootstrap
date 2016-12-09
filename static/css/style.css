@@ -31,12 +31,11 @@ p {
      text-align: justify;
 }
 
-/* Responsive viceo? */
-iframe {
-     max-width: 100%;
- }
-
 img {
   display: block;
   margin: auto;
+}
+
+.social {
+  font-size: 36pt;
 }
