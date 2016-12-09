@@ -37,7 +37,7 @@
     {{ if eq .Site.Params.socialLinks true }}
       <div class="section">
         <header><div class="title"><b>Find me on</b></div></header>
-        <div class="social">{{ partial "modules/site/link/social" . }}</div>
+        {{ partial "modules/site/link/social" . }}
       </div>
     {{ end }}
 

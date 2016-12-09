@@ -122,7 +122,7 @@ disqusShortname = "your_disqus_shortname"
     twitter = "" # Your Twitter profile ID
     youtube = ""  # Your Youtube channel ID
     flattr = ""  # populate with your flattr uid
-    stackoverflow = "" # Stack overflow "id/name"
+    stackoverflow = "" # Stack Overflow "id/name"
 
     # Theme name
     [params.theme]
