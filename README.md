@@ -170,6 +170,10 @@ Create `data/FootMenu.toml` to configure the footer navigation links. Example be
     URL = "/license"
 ```
 
+### Favicons
+
+This website is suggested to generate icons. If you do so, you should override `layouts/partials/favicons.html` and put all meta tags there. Put icons into `/static/favicons`.
+
 ## Tips
 
 * If you've added `theme = "hugo-bootstrap"` to your `config.toml`, you don't need to keep using the `--theme=hugo-bootstrap` flag!
